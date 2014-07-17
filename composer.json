@@ -1,0 +1,11 @@
+{
+  "name": "echo-it/opbeat-php",
+  "description": "Error logger for Opbeat",
+  "keywords": ["opbeat"],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "autoload": {
+    "classmap": ["opbeat/", "opbeat/transport/", "opbeat/message/part/"]
+  }
+}
